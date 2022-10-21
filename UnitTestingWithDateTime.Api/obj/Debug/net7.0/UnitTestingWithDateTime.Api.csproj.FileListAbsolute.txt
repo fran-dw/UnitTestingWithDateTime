@@ -1,0 +1,12 @@
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\bin\Debug\net7.0\UnitTestingWithDateTime.Api.deps.json
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\bin\Debug\net7.0\UnitTestingWithDateTime.Api.dll
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\bin\Debug\net7.0\UnitTestingWithDateTime.Api.pdb
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.csproj.AssemblyReference.cache
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.AssemblyInfoInputs.cache
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.AssemblyInfo.cs
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.csproj.CoreCompileInputs.cache
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.dll
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\refint\UnitTestingWithDateTime.Api.dll
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\UnitTestingWithDateTime.Api.pdb
+C:\_Personal\dev\UnitTestingWithDateTime\UnitTestingWithDateTime.Api\obj\Debug\net7.0\ref\UnitTestingWithDateTime.Api.dll
