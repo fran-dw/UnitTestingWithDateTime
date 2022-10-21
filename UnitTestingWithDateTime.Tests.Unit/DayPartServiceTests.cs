@@ -27,15 +27,15 @@ namespace UnitTestingWithDateTime.Tests.Unit
         public void GetCurrentDayPart_ShouldReturnMorning_WhenItIsMorning(int hour)
         {
             // Arrange
-            const string expectedGreeting = "Morning";
+            const string expectedDayPart = "Morning";
             var dateTime = new DateTime(2022, 1, 1, hour, 0, 0);
             _systemClockMock.Setup(x => x.UtcNow).Returns(dateTime);
 
             // Act
-            var greeting = _sut.GetCurrentDayPart();
+            var dayPart = _sut.GetCurrentDayPart();
 
             // Assert
-            greeting.Should().Be(expectedGreeting);
+            dayPart.Should().Be(expectedDayPart);
         }
 
         [TestCase(12, TestName = "Time is 12pm")]
@@ -47,15 +47,15 @@ namespace UnitTestingWithDateTime.Tests.Unit
         public void GetCurrentDayPart_ShouldReturnAfternoon_WhenItIsAfternoon(int hour)
         {
             // Arrange
-            const string expectedGreeting = "Afternoon";
+            const string expectedDayPart = "Afternoon";
             var dateTime = new DateTime(2022, 1, 1, hour, 0, 0);
             _systemClockMock.Setup(x => x.UtcNow).Returns(dateTime);
 
             // Act
-            var greeting = _sut.GetCurrentDayPart();
+            var dayPart = _sut.GetCurrentDayPart();
 
             // Assert
-            greeting.Should().Be(expectedGreeting);
+            dayPart.Should().Be(expectedDayPart);
         }
 
         [TestCase(18, TestName = "Time is 6pm")]
@@ -67,15 +67,15 @@ namespace UnitTestingWithDateTime.Tests.Unit
         public void GetCurrentDayPart_ShouldReturnEvening_WhenItIsEvening(int hour)
         {
             // Arrange
-            const string expectedGreeting = "Evening";
+            const string expectedDayPart = "Evening";
             var dateTime = new DateTime(2022, 1, 1, hour, 0, 0);
             _systemClockMock.Setup(x => x.UtcNow).Returns(dateTime);
 
             // Act
-            var greeting = _sut.GetCurrentDayPart();
+            var dayPart = _sut.GetCurrentDayPart();
 
             // Assert
-            greeting.Should().Be(expectedGreeting);
+            dayPart.Should().Be(expectedDayPart);
         }
 
         [TestCase(0, TestName = "Time is 12am")]
@@ -87,15 +87,15 @@ namespace UnitTestingWithDateTime.Tests.Unit
         public void GetCurrentDayPart_ShouldReturnNight_WhenItIsNight(int hour)
         {
             // Arrange
-            const string expectedGreeting = "Night";
+            const string expectedDayPart = "Night";
             var dateTime = new DateTime(2022, 1, 1, hour, 0, 0);
             _systemClockMock.Setup(x => x.UtcNow).Returns(dateTime);
 
             // Act
-            var greeting = _sut.GetCurrentDayPart();
+            var dayPart = _sut.GetCurrentDayPart();
 
             // Assert
-            greeting.Should().Be(expectedGreeting);
+            dayPart.Should().Be(expectedDayPart);
         }
     }
 }
